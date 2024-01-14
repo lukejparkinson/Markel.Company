@@ -12,5 +12,6 @@ public class CompanyMappingProfile : Profile
         CreateMap<Domain.ViewModels.CreateCompany, Domain.Dtos.Company>();
         CreateMap<Domain.ViewModels.UpdateCompany, Domain.Dtos.Company>();
         CreateMap<Domain.Dtos.Company, Domain.ViewModels.Company>();
+        CreateMap<Domain.Dtos.Company, Domain.ViewModels.CreateCompany>();
     }
 }

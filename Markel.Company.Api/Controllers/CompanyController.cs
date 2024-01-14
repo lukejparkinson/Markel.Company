@@ -30,7 +30,7 @@ namespace Markel.Company.Api.Controllers
 
             return result is not null
                 ? Ok(MapToViewModel(result))
-                : BadRequest($"Company with Id: {id} not found");
+                : NotFound($"Company with Id: {id} not found");
         }
 
         [HttpPost]
