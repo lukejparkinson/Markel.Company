@@ -1,0 +1,6 @@
+@Markel.Company.Api_HostAddress = http://localhost:5152
+
+GET {{Markel.Company.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
